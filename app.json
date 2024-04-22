@@ -1,0 +1,37 @@
+{
+	"name": "String Session Bot",
+	"description": "- Bots string session",
+	"logo": "https://telegra.ph/file/80f69adddf4f6396f994a.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+    "env": {
+        "ELHYBA": {
+            "description": "Put your bot token here",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Put the api hash here",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Put your api id here",
+            "value": ""
+        },
+        "OWNER": {
+            "description": "Put the onwer here",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
